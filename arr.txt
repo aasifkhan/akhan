@@ -1,0 +1,10 @@
+def self.sorting(*myarray)
+myarray.each_index do |a|
+myarray.each_index do |b|
+if myarray[a] < myarray[b]
+myarray[a], myarray[b] = myarray[b], myarray[a]
+end
+end
+end
+arr
+end
