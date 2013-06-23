@@ -1,0 +1,14 @@
+def self.sorting(*myarray)
+myarray.each_index do |a|
+myarray.each_index do |b|
+if myarray[a] < myarray[b]
+myarray[a], myarray[b] = myarray[b], myarray[a]
+end
+end
+end
+arr
+end
+
+page 8- 43 to 47, 49.
+page 10- 52 to 56.
+
